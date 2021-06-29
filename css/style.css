@@ -18,7 +18,7 @@ body {
 /*----Header Area star----*/
 .header {
     background-image: url(../img/bg1.png);
-    background-position: center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
@@ -34,8 +34,8 @@ body {
     color: #fff !important;
     font-size: 16px;
     font-family: 'Hind', sans-serif;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: inline-block;
     transition: .3s;
     transform: scale(1);
@@ -586,7 +586,7 @@ body {
     display: block;
 }
 
-.footer-content p {
+.footer-content p a {
     font-size: 14px;
     font-weight: 300;
     font-family: 'Hind', sans-serif;
@@ -595,7 +595,10 @@ body {
     margin-top: 15px;
     display: block;
 }
-
+.footer-content p a:hover{
+    text-decoration: none;
+    color: #4235f3;
+}
 .line-but {
     background-color: transparent;
     border: 2px solid #f55f8d;
@@ -624,7 +627,7 @@ body {
 
 .fot-btn {
     position: absolute;
-    top: 55px;
+    top: 71px;
     right: -38px;
     height: 40px;
     border: none;
